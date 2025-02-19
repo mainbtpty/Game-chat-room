@@ -31,16 +31,16 @@ class HomeComponent extends React.Component<WithTranslation> {
                     (
                         <div>
                             <div className='text-xl md:text-5xl mb-2 hidden sm:block'>
-                                A<Typist startDelay={1000}  typingDelay={110} loop={true}  cursor={<span className='cursor'>{this.state.cursor}</span>}   >nonymous Chat Room <Typist.Delay ms={1500} /><Typist.Backspace count={18} /></Typist>
+                                G<Typist startDelay={1000}  typingDelay={110} loop={true}  cursor={<span className='cursor'>{this.state.cursor}</span>}   >ame Chat Room <Typist.Delay ms={1500} /><Typist.Backspace count={18} /></Typist>
 
                             </div>
                             <div className='text-xl md:text-5xl mb-2 block sm:hidden'>
-                                Anonymous Chat Room
+                                Game Chat Room
                             </div>
                         </div>
                     ) : (
                         <div className='text-xl md:text-5xl mb-2 block'>
-                            欢迎来到匿名聊天室
+                            Betting Racing Car
                         </div>
                     )
                 }
@@ -62,13 +62,9 @@ class HomeComponent extends React.Component<WithTranslation> {
                 </div>
             </div>
             <footer className=' text-white gap-2 fixed bottom-0 text-xs sm:text-xl h-12 w-full py-1 px-2 flex items-center justify-center text-center bg-primary'>
-                Hosted on 
-                <a className=' text-accent-focus ' href="https://livekit.io/cloud?ref=meet" rel="noopener">
-                LiveKit Cloud
-                </a>
-                . Source code on 
-                <a className=' text-accent-focus ' href="https://github.com/velor2012/anonymous-chat-room" rel="noopener">
-                GitHub
+                Betting 
+                <a className=' text-accent-focus ' href="https://mainbtpty.github.io/p5-multiplayer-car-race-game/" rel="noopener">
+                Car Racing Page
                 </a>
                 .
             </footer>
